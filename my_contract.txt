@@ -1,0 +1,29 @@
+THIS MASTER SERVICES AGREEMENT ("Agreement") is made and entered into as of this 1st day of May, 2024 (the “Effective Date”),
+by and between Global Tech Solutions Inc., a Delaware corporation, having its principal place of business at 1000 Innovation Drive,
+Palo Alto, California 94301 (“Client”), and Data Dynamics LLC, a New York limited liability company, having its principal place of
+business at 200 Madison Avenue, New York, New York 10016 (“Provider”).
+
+1.  SERVICES. Provider shall provide Client with data analytics and cloud infrastructure management services (the “Services”)
+as more fully described in Exhibit A attached hereto. Provider shall perform the Services in a professional and workmanlike
+manner and in accordance with industry standards. Provider acknowledges that the timely performance of the Services is
+of the essence to this Agreement.
+
+2.  TERM AND TERMINATION. This Agreement shall commence on the Effective Date and shall continue for an initial term of
+three (3) years (the “Initial Term”). Upon expiration of the Initial Term, this Agreement shall automatically renew for
+successive one (1) year periods, unless either party provides written notice of non-renewal to the other party at least
+ninety (90) days prior to the end of the then-current term. Either party may terminate this Agreement for cause
+(i) upon a material breach by the other party if such breach is not cured within thirty (30) days of written notice,
+or (ii) if the other party becomes insolvent or files for bankruptcy.
+
+3.  FEES AND PAYMENT. In consideration for the Services, Client shall pay Provider a fee of $250,000 per year, payable in
+equal monthly installments of $20,833.33. All invoices are due within thirty (30) days of receipt. Late payments shall be
+subject to a finance charge of 1.5% per month on the outstanding balance.
+
+4.  CONFIDENTIALITY. Each party (as a “Receiving Party”) agrees that it shall not, during the term of this Agreement or
+thereafter, disclose or otherwise make available to any third party any Confidential Information of the other party
+(as a “Disclosing Party”). “Confidential Information” shall include any non-public information, including technical data,
+trade secrets, business plans, and customer lists.
+
+5.  LIMITATION OF LIABILITY. IN NO EVENT SHALL EITHER PARTY’S AGGREGATE LIABILITY ARISING OUT OF OR RELATED TO THIS AGREEMENT
+EXCEED THE TOTAL FEES PAID BY CLIENT TO PROVIDER IN THE TWELVE (12) MONTHS PRECEDING THE CLAIM. IN NO EVENT SHALL EITHER
+PARTY BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, OR PUNITIVE DAMAGES.
