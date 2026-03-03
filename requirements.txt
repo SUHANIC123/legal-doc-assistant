@@ -1,6 +1,6 @@
-streamlit
-transformers
-torch
-PyPDF2
-rouge-score
-pandas
+streamlit==1.32.0
+transformers==4.40.0
+torch==2.2.2
+PyPDF2==3.0.1
+rouge-score==0.1.2
+pandas==2.2.2
