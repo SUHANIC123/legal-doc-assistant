@@ -1,6 +1,7 @@
-streamlit==1.32.0
-transformers==4.40.0
-torch==2.2.2
-PyPDF2==3.0.1
-rouge-score==0.1.2
-pandas==2.2.2
+streamlit
+transformers
+torch>=2.5.0
+PyPDF2
+rouge-score
+pandas
+sentencepiece
