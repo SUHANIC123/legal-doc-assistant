@@ -14,14 +14,17 @@ st.title("⚖️ AI Legal Document Summarization & Evaluation")
 # --------------------------------------------------
 # Load DistilBART Model (Cached)
 # --------------------------------------------------
+from transformers import AutoTokenizer, AutoModelForSeq2SeqLM
+import torch
+
 @st.cache_resource
 def load_model():
-    return pipeline(
-        "summarization",
-        model="sshleifer/distilbart-cnn-12-6"
-    )
+    model_name = "sshleifer/distilbart-cnn-12-6"
+    
+    tokenizer = AutoTokenizer.from_pretrained(model_name)
+    model = AutoModelForSeq2SeqLM.from_pretrained(model_name)
 
-distilbart_model = load_model()
+    return tokenizer, model
 
 # --------------------------------------------------
 # Extract Text from PDF
@@ -38,29 +41,27 @@ def extract_text(pdf_file):
 # Generate Summary (Chunking for Long Docs)
 # --------------------------------------------------
 def generate_bart_summary(text):
-    max_chunk = 1000
-    
-    # Hard safety limit (important for deployment)
-    text = text[:4000]
+    tokenizer, model = load_model()
 
-    chunks = [
-        text[i:i+max_chunk]
-        for i in range(0, len(text), max_chunk)
-    ]
+    inputs = tokenizer(
+        text,
+        return_tensors="pt",
+        max_length=1024,
+        truncation=True
+    )
 
-    summary = ""
+    summary_ids = model.generate(
+        inputs["input_ids"],
+        max_length=150,
+        min_length=40,
+        length_penalty=2.0,
+        num_beams=4,
+        early_stopping=True,
+    )
 
-    for chunk in chunks:
-        output = distilbart_model(
-            chunk,
-            max_length=150,
-            min_length=40,
-            do_sample=False
-        )
-        summary += output[0]['summary_text'] + "\n"
+    summary = tokenizer.decode(summary_ids[0], skip_special_tokens=True)
 
     return summary
-
 
 # --------------------------------------------------
 # ROUGE Evaluation
