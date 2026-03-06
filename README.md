@@ -1,10 +1,10 @@
-# ⚖️ Legal Document Summarization & Evaluation System
+#  Legal Document Summarization & Evaluation System
 
 > An AI-powered web application that summarizes legal documents and evaluates summary quality using ROUGE metrics.
 
 ---
 
-## 🔗 Live Demo
+##  Live Demo
 
 **Launch App →https://legal-doc-assistant-l2z4tvfappsiazezzcsjxb5.streamlit.app**
 
@@ -12,7 +12,7 @@
 
 ---
 
-## 📌 What It Does
+##  What It Does
 
 Upload any legal PDF — contracts, judgments, briefs — and the app will:
 
@@ -26,7 +26,7 @@ This is useful for lawyers, researchers, and students who need quick document ov
 
 ---
 
-## 🧠 Model — DistilBART CNN 12-6
+##  Model — DistilBART CNN 12-6
 
 | Property | Detail |
 |---|---|
@@ -40,7 +40,7 @@ DistilBART is a compressed version of Facebook's BART model, retaining ~97% of p
 
 ---
 
-## 📊 Evaluation — ROUGE Metrics
+##  Evaluation — ROUGE Metrics
 
 ROUGE (Recall-Oriented Understudy for Gisting Evaluation) compares the AI-generated summary against a human-written reference.
 
@@ -54,7 +54,7 @@ The system achieved a **ROUGE-L score of 0.414** on a test set of 50+ legal docu
 
 ---
 
-## 🛠 Tech Stack
+##  Tech Stack
 
 | Layer | Technology |
 |---|---|
@@ -68,7 +68,7 @@ The system achieved a **ROUGE-L score of 0.414** on a test set of 50+ legal docu
 
 ---
 
-## 🏗 Architecture
+##  Architecture
 
 ```
 User Uploads PDF
@@ -97,7 +97,7 @@ Performance Comparison Table
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 ```
 legal-doc-assistant/
@@ -110,7 +110,7 @@ legal-doc-assistant/
 
 ---
 
-## ⚙️ Local Setup
+## Local Setup
 
 ### 1. Clone the repository
 ```bash
@@ -144,7 +144,7 @@ App will open at `http://localhost:8501`
 
 ---
 
-## 📖 How to Use
+##  How to Use
 
 1. Open the web application
 2. Upload a legal PDF (contract, judgment, brief, etc.)
@@ -154,7 +154,7 @@ App will open at `http://localhost:8501`
 
 ---
 
-## 📈 Results
+##  Results
 
 Evaluated on 50+ real legal documents including contracts, court judgments, and legal briefs:
 
