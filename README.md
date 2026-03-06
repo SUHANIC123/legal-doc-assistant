@@ -6,7 +6,7 @@
 
 ## 🔗 Live Demo
 
-**[Launch App →]([https://legal-doc-assistant-l2z4tvfappsiazezzcsjxb5.streamlit.app]**
+**Launch App →https://legal-doc-assistant-l2z4tvfappsiazezzcsjxb5.streamlit.app**
 
 > If the app is sleeping (free tier), refresh after 30–60 seconds.
 
